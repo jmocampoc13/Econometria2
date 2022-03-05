@@ -73,7 +73,7 @@ Var(x_t) & = \phi^2 E[(\phi x_{t-2} + \varepsilon_{t-1})^2] + E[\varepsilon_t^2]
 Repitiendo este proceso, obtenemos
 
 \begin{align}
-Var(x_t) & = \phi^{2n} E[x_{t-n}^2] + \phi^{2(n-1)} E[\varepsilon_{t-n}^2 ] + \dots  + \\
+Var(x_t) & = \phi^{2n} E[x_{t-n}^2] + \phi^{2(n-1)} E[\varepsilon_{t-(n-1}^2 ] + \dots  + \\
 & \phi^2 E[\varepsilon_{t-1}^2] + E[\varepsilon_t^2] \\
 \end{align}    
 
